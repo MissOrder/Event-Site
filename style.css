@@ -19,9 +19,6 @@ a{
     text-decoration: none;
     color: rgb(247, 106, 129);
 }
-.tranding_event{
-    color: rgb(0, 204, 255);
-}
   
 .top_bar{
     
@@ -43,6 +40,9 @@ a{
  .search_bar_container{
     position: relative;
     border: 1px solid ;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
 }
   .search_bar_container::before{
     content: "";
@@ -51,26 +51,56 @@ a{
     z-index: -1;
 }
  .search_bar_container{
-    padding: 10px 20px;
+    padding: 20px 20px; 
+ }
+ #bnt{
+    border-radius: 100px;
+    width: 1000px;
+    border: none;
+    /* padding: 5px 50px; */
+    /* margin: 100px; */
  }
  
  .search-bar{
     display: flex;
-    justify-content: space-between;
+    padding: 20px;
+    gap: 500px;
  }
+  
+  input{
+    border:none;
+    background: none;
+    
+  }
+  input:focus,textarea:focus{
+    outline: none;
+  }
  .categories{
     display: flex;
-    gap: 10px;
+    gap: 17px;
  }
- /* .search-bar{
-    display: flex;
-    width: 100%;
-    max-width: 600px;
- } 
- .search-bar input[type="text"]{
-    flex-grow: 1;
-    padding: 10px;
-    border: 1px solid;
-    border-radius: 50px 0 0 5px;
+   .categories a,.secondary-nav a {
+   color: black;
  }
-  */
+
+ .secondary-nav ul{
+   margin-left: 250px;
+   display: flex;
+   gap: 15px;
+   padding: 15px;
+ }
+ button{
+    padding: 10px 20px 10px 10px;
+    border: none;
+    border-radius: 100px;
+    font-size: 15px;
+ }
+ main{
+    padding-top: 50px;
+    padding-left: 250px;
+ }
+ .trending_event{
+    color: rgb(23, 144, 160);
+    margin-top: 10px;
+    
+}
