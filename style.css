@@ -104,3 +104,21 @@ a{
     margin-top: 10px;
     
 }
+.grid_container{
+  /* padding-top: 40px; */
+  display: grid;
+ /* background-color: gray; */
+ grid-template-rows: ;
+ grid-template-columns: repeat(3, 1fr);
+ gap:10px;
+ /* min-height: 400px; */
+ 
+}
+.grid_item img{
+  height: 370px;
+  width: 475px;
+  /* width: 300px; */
+  background: silver;
+  margin: 6px;
+  border-radius: 20px;
+}
