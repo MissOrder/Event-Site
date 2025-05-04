@@ -22,7 +22,7 @@ footer {
 
 a {
    text-decoration: none;
-   color: rgb(247, 106, 129);
+   color: inherit;
 }
 
 .top-bar {
@@ -431,9 +431,10 @@ textarea:focus {
    justify-content: space-between;
 }
 
-.explore-more a div{
+.explore-more a div {
    background-color: palevioletred;
-   color: #fff;;
+   color: #fff;
+   ;
    width: 100%;
    padding: 15px;
    padding-bottom: 50px;
@@ -441,3 +442,32 @@ textarea:focus {
    font-weight: 600;
    border-radius: 15px;
 }
+footer{
+   background-color: rgb(20, 20, 58);
+   color: white;
+   margin-top: 60px;
+   padding-top: 30px;
+
+
+}
+footer .container {
+   display: flex;
+   justify-content: space-between;
+   line-height: 2;
+   color: #ffffff8f;
+}
+
+footer .container nav li:nth-of-type(1) {
+   line-height: 3;
+   font-size: 18px;
+   color: white;
+}
+ footer .copyright{
+   border-top: 1px solid #c0c0c040;
+   font-size: 12px;
+   color: aliceblue;
+}
+footer .copyright span{
+   color: palevioletred;
+}
+ 
